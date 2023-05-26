@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+
+  --font-color: #E1E1E6;
+  --font-family: 'Roboto', sans-serif;
+  --font-size-header: 2.5rem;
+
+}
+html, body {
+  overflow: hidden;
+ }
+body{
+  min-width: 100vh;
+  min-height: 100vh;
+
+  font-family: var(--font-family);
+  color: var(--font-color);
+
+}
+.background1{
+  background-image: url(/imagens/mountains-universe-1.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+.background2{
+  background-image: url(/imagens/mountains-universe-2.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+.background3{
+  background-image: url(/imagens/mountains-universe-3.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+header{
+  display:flex;
+  align-items: center;
+  font-size: var(--font-size-header);
+  
+  padding-top: 4rem;
+  padding-left: 7.2rem;
+  height: 12rem
+}
+header button{
+  background:none;
+  padding:0;
+  margin:0;
+  border:none;
+  cursor:pointer;
+}
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  margin-left: 4.2rem;
+  gap: 4.2rem;
+  
+}
+a{
+  text-decoration:none;
+  color: var(--font-color);
+}
+
+main{
+  
+
+  align-items: center;
+  
+  margin-top: 25vh;
+  
+  position: relative;
+
+  width: 50rem;
+}
+h1{
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+  font-weight:700;
+  
+}
+main button{
+ 
+  padding: 1.2rem 3.2rem;
+
+  border: 2px solid #FFFFFF;
+  border-radius: 5px; 
+  
+  background: none;
+  color:var(--font-color);
+
+  cursor:pointer;
+
+  font-family:var(--font-family);
+  font-size: 1.5rem;
+
+  text-transform: uppercase;
+  font-weight: 700;
+}
+main button:hover{
+  background: var(--font-color);
+  color: #02799D;
+
+  text-transform: uppercase;
+}
+.container{
+  
+
+  margin-left: 15rem;
+  margin-top: -15rem;
+
+  /*height: 27.9rem;*/
+  width: 95rem;
+}
+
+.container h1{
+  margin-bottom: 3.2rem;
+}
+.container p{
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 160%;
+}
+.fit-center{
+  left: calc(35%);
+  display:flex;
+  flex-direction:column;
+}
