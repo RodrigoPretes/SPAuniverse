@@ -8,4 +8,4 @@ Para iniciar, coloque esse repositorio no seu computador e dê os seguintes coma
 :npm start
 ```
 ## Feito por Rodrigo 😎
-### licenca MIT ⚖️
+### licença MIT ⚖️
