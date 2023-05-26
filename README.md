@@ -7,5 +7,5 @@ Para iniciar, coloque esse repositorio no seu computador e dê os seguintes coma
 :npm install lite-server
 :npm start
 ```
-##Feito por Rodrigo 😎
-##licenca MIT ⚖️
+## Feito por Rodrigo 😎
+### licenca MIT ⚖️
